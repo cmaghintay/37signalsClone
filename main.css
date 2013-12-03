@@ -1,0 +1,117 @@
+#header {
+	display:block;
+	height:80px;
+    min-width:960px;
+}
+
+#top-left {
+	float:left;
+	margin:30px 50px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+}
+
+#nav-bar {
+	float:right;
+	margin:30px  50px;
+	font-family:"Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size:12px;
+	color:#999;
+}
+
+.section-container {
+	clear:both;
+    text-align:center;
+	display:block;
+	width:850px;
+	margin:0px auto;
+}
+
+.description-header {
+	display::block;
+	font-family:"Palatino Linotype", "Book Antiqua", "Palatino", serif;
+	font-size:50px;
+	font-weight:bold;
+	line-height:50px;
+	margin:30px 0;
+	text-align:center;
+}
+
+.description-subheader {
+	display::block;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:18px;
+	font-weight:normal;
+	line-height:40px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.icon-box {
+	padding:20px 10px;
+    margin:0px 20px;
+    display:inline-block;
+	border:1px solid #e6e6e6;
+    border-radius:5px;
+	background: linear-gradient(#fff, #efefef);
+	width:160px;
+	height:225px;
+    box-shadow: 0 0 5px #d9d9d9;
+
+}
+.section-divider {
+    display:block;
+    margin:25px auto;
+}
+
+.nav-item {
+    text-decoration:none;
+    color:#369;
+    margin:0px 7px;
+}
+
+.nav-item:hover {
+    text-decoration:none;
+    color:#4B8CCC;
+}
+
+.nav-signin {
+    text-decoration:none;
+    color:#4B8CCC;
+    margin:0px 7px;
+
+}
+
+.nav-signin:hover {
+    text-decoration:none;
+    color:#369;
+}
+.product-name {
+    margin:10px 0px;
+    color:#369;
+    font-size:22px;
+    font-weight:bold;
+	font-family:"Palatino Linotype", "Book Antiqua", "Palatino", serif;
+    text-decoration:underline;
+    
+    
+}
+
+.product-description {
+        margin:10px 0px;
+        color:#cc0000;
+    	font-family:"Tahoma", "Book Antiqua", "Palatino", serif;
+        font-weight:bold;
+
+}
+
+p {
+    font-family:"Tahoma", sans-serif;
+    font-size:15px;
+}
+
+#nav-bar li {
+    float:left;
+    margin:0px 5px;
+}
