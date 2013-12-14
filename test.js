@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $(".icon-box-basecamp").hover(function(){
+        $(".displaytext-default").toggle();
+        $(".displaytext-basecamp").toggle();
+    });
+    $(".icon-box-highrise").hover(function(){
+        $(".displaytext-default").toggle();
+        $(".displaytext-highrise").toggle();
+    });
+    $(".icon-box-campfire").hover(function(){
+        $(".displaytext-default").toggle();
+        $(".displaytext-campfire").toggle();
+    });
+});
