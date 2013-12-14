@@ -28,39 +28,27 @@
 	margin:0px auto;
 }
 
-
-.description-header-small {
+.description-header {
 	display::block;
-	font-family:"Palatino Linotype", "Book Antiqua", "Palatino", serif;
-	font-size:40px;
-	font-weight:bold;
-	line-height:45px;
-	margin:30px 0 20px 0;
-	text-align:center;
-}
-
-.description-header-default {
-    display::block;
 	font-family:"Palatino Linotype", "Book Antiqua", "Palatino", serif;
 	font-size:49px;
 	font-weight:bold;
-	line-height:55px;
-	margin:30px 0 20px 0;
+	line-height:50px;
+	margin:30px 0;
 	text-align:center;
 }
-
 
 .description-subheader {
 	display::block;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:18px;
 	font-weight:normal;
-	line-height:30px;
+	line-height:40px;
 	margin-bottom:30px;
 	text-align:center;
 }
 
-.icon-box-basecamp {
+.icon-box {
 	padding:20px 10px;
     margin:0px 20px;
     display:inline-block;
@@ -72,33 +60,6 @@
     box-shadow: 0 0 5px #d9d9d9;
 
 }
-
-.icon-box-highrise {
-	padding:20px 10px;
-    margin:0px 20px;
-    display:inline-block;
-	border:1px solid #e6e6e6;
-    border-radius:5px;
-	background: linear-gradient(#fff, #efefef);
-	width:160px;
-	height:225px;
-    box-shadow: 0 0 5px #d9d9d9;
-
-}
-
-.icon-box-campfire {
-	padding:20px 10px;
-    margin:0px 20px;
-    display:inline-block;
-	border:1px solid #e6e6e6;
-    border-radius:5px;
-	background: linear-gradient(#fff, #efefef);
-	width:160px;
-	height:225px;
-    box-shadow: 0 0 5px #d9d9d9;
-
-}
-
 .section-divider {
     display:block;
     margin:25px auto;
@@ -148,67 +109,9 @@
 p {
     font-family:"Tahoma", sans-serif;
     font-size:15px;
-    color:black;
 }
 
 #nav-bar li {
     float:left;
     margin:0px 5px;
-}
-
-.displaytext-default {
-    display:block;
-    height:200px;
-}
-.display_blockcenter {
-    display:block;
-    margin:0, 0, 0, 20px ;
-}
-
-.displaytext-basecamp {
-    display:none;
-    height:200px;
-
-}
-
-.displaytext-highrise {
-    display:none;
-    height:200px;
-}
-
-.displaytext-campfire {
-    display:none;
-    height:200px;
-}
-#arrow-basecamp {
-    position:relative;
-    left:250px;
-    top:-20px;
-    height:69px;
-    width:69px;
-    background: url('Images/arrow-left.png') 0 0 no-repeat;
-}
-
-#arrow-highrise {
-    position:relative;
-    left:475px;
-    top:-20px;
-    height:69px;
-    width:69px;
-    background: url('Images/arrow-left.png') 0 0 no-repeat;
-}
-
-#arrow-campfire {
-    position:relative;
-    left:530px;
-    top:-20px;
-    height:69px;
-    width:69px;
-    background: url('Images/arrow-right.png') 0 0 no-repeat;
-
-}
-
-.callout {
-    text-decoration:underline;
-    color:#369;
 }
